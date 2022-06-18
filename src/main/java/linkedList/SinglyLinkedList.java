@@ -86,4 +86,15 @@ public class SinglyLinkedList<T> {
 
         return false; //value not found
     }
+    public void deleteByValue(T data){
+        Node temp = headNode;
+        while (temp.nextNode != null) {
+            if(temp.nextNode.data == data){
+                temp.nextNode = temp.nextNode.nextNode;
+                return;
+            }
+            temp = temp.nextNode;
+        }
+
+    }
 }
