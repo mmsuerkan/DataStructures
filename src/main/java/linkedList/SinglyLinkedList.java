@@ -4,7 +4,7 @@ public class SinglyLinkedList<T> {
     //Node inner class for SLL
     public class Node {
         private T data;
-        private Node nextNode;
+        public Node nextNode;
 
         public Node(T data) {
             this.data = data;
@@ -106,4 +106,5 @@ public class SinglyLinkedList<T> {
         }
         return count;
     }
+
 }
