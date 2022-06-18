@@ -95,6 +95,15 @@ public class SinglyLinkedList<T> {
             }
             temp = temp.nextNode;
         }
-
+    }
+    public int length() {
+        int count = 0;
+        // Write -- Your -- Code
+        Node temp = headNode;
+        while (temp != null) {
+            count++;
+            temp = temp.nextNode;
+        }
+        return count;
     }
 }
