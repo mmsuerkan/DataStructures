@@ -1,6 +1,6 @@
 package linkedList.challange1;
 
-import linkedList.SinglyLinkedList;
+import linkedList.common.SinglyLinkedList;
 
 public class InsertAtEnd<T> {
 

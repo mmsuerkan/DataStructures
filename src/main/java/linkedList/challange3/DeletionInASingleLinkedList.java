@@ -1,6 +1,6 @@
 package linkedList.challange3;
 
-import linkedList.SinglyLinkedList;
+import linkedList.common.SinglyLinkedList;
 
 public class DeletionInASingleLinkedList {
     public static void main(String[] args) {

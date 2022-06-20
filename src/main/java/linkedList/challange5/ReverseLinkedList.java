@@ -1,6 +1,6 @@
 package linkedList.challange5;
 
-import linkedList.SinglyLinkedList;
+import linkedList.common.SinglyLinkedList;
 
 public class ReverseLinkedList {
 

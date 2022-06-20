@@ -1,6 +1,6 @@
 package linkedList.challange6;
 
-import linkedList.SinglyLinkedList;
+import linkedList.common.SinglyLinkedList;
 
 public class DetectLoop {
 
